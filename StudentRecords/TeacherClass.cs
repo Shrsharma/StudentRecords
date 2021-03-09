@@ -8,7 +8,7 @@ namespace StudentRecords
     {
         public string Name { get; set; }
 
-        //public string ClassNSection { get; set; }
+        public string ClassNSection { get; set; }
 
         public string Info()
         {
