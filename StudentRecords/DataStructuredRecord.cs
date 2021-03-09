@@ -5,7 +5,7 @@ using System.IO;
 
 namespace StudentRecords
 {
-    class Record
+    class DataStructuredRecord
     {
         public static void Do()
         {

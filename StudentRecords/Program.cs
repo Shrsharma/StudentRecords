@@ -6,7 +6,8 @@ namespace StudentRecords
     {
         static void Main(string[] args)
         {
-            Record.Do();
+            //DataStructuredRecord.Do();
+            GivenRecordClass.Do();
         }
     }
 }
