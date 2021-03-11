@@ -30,7 +30,7 @@ namespace StudentRecords
                 for (int i = 0; i < len - 1; i++)
                 {
                     string[] data = contents[i].Split(", ");
-                    Console.WriteLine("Name: "+data[0] + ", " + "Dept: "+data[1]);
+                    Console.WriteLine("Name: "+data[0] + ", Class: "+data[1]+", Dept: "+data[2]);
                 }
                 Console.WriteLine("\nEnter name to be searched:");
                 string ele = Console.ReadLine();
